@@ -3,8 +3,8 @@ import colors from "vuetify/es5/util/colors";
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - nuxt-stock-screener",
-    title: "nuxt-stock-screener",
+    titleTemplate: "%s",
+    title: "Stock Sreener",
     htmlAttrs: {
       lang: "en",
     },

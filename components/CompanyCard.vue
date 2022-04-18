@@ -18,12 +18,6 @@
       <v-btn outlined rounded text> {{ stock.symbol }} </v-btn>
     </v-card-actions>
   </v-card>
-
-  <!-- <v-card class="pa-2" outlined tile>
-    <h3>{{ stock.name }}</h3>
-    {{ stock.symbol }}<br />
-    {{ stock.price }}<br />
-  </v-card> -->
 </template>
 <script>
 export default {
