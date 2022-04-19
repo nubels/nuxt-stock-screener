@@ -1,11 +1,16 @@
 <template>
-  <div>{{ this.stock }}</div>
+  <div>
+    {{ this.stock }}
+    <bar-chart />
+  </div>
 </template>
 
 <script>
 import stocks from "~/data/stock-list";
+import BarChart from "../../components/BarChart.vue";
 
 export default {
+  components: { BarChart },
   data() {
     return {
       stock: {},

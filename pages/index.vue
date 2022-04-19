@@ -9,7 +9,9 @@
           sm="4"
           style="padding: 10px"
         >
-          <company-card :stock="stock"></company-card>
+          <nuxt-link :to="`/stocks/${stock.symbol}`" no-prefetch active-class>
+            <company-card :stock="stock"></company-card>
+          </nuxt-link>
         </v-col>
       </v-row>
     </v-container>
